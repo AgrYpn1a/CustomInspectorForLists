@@ -234,7 +234,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _modules:
   - {fileID: 11400000, guid: 6756d53f24b2a9f4584403ca65727219, type: 2}
-  - {fileID: 11400000, guid: c11122bdb01ca60468ed27114a2ce3ae, type: 2}
 --- !u!4 &1242710529
 Transform:
   m_ObjectHideFlags: 0

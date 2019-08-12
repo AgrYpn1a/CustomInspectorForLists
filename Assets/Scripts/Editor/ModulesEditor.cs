@@ -8,8 +8,6 @@ public sealed class ModulesEditor : Editor
 {
     private Modules _modules;
 
-    private string _selectedGUID = string.Empty;
-
     public override void OnInspectorGUI()
     {
         if (!_modules)
@@ -73,8 +71,6 @@ public sealed class ModulesEditor : Editor
 
             menu.AddItem(new GUIContent(m.GetName()), false, (obj) =>
             {
-                _selectedGUID = (string)obj;
-
                 Undo.RecordObject(_modules, "Added Module");
 
                 // Add new module
